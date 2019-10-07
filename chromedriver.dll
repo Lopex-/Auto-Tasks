@@ -1,0 +1,63 @@
+﻿
+
+**********************************************************************************
+
+Auto missing version 0.31
+
+En caso de error tomar captura de pantalla y enviar al correo ir.lopex@gmail.com
+con una explicacion de lo que paso.
+
+Por default el nombre del archivo de excel es 'Auto-missing.xlsm' y se encuentra
+en la misma carpeta que el archivo 'Auto Missing.exe.
+
+En caso de no encontrar el archivo 'Auto-missing.xlsm', se abrira una ventana de
+explorador para buscar el archivo de excel con la informacion.
+
+Por default la hoja con la informacion se llama 'Proyectos Activos'.En caso de no
+encontrar la hoja 'Proyectos Activos', el programa te pedira que ingreses el
+nombre de la hoja en la consola (ventana negra donde estas leyendo esto).
+
+El programa te pedira que ingreses un numero para elegir el modo de ejecucion,
+1 para correr el programa de forma normal guardando las modificaciones para cada
+proyecto; cualquier otro numero correra el programa en 'mode de prueba' donde NO
+se guardaran modificaciones en Salesforce.
+
+Las columnas en el archivo de excel deben estar ordenadas de la siguiente forma, de
+izquierda a derecha, de arriba a abajo:
+
+
+| Factory SO | Sold To Party Name | Item Num | Faltantes | Encabezado | Texto Missing |
+
+| Link | Last Material | PO Release |
+
+
+Las primeras 3 columnas de izquierda a derecha son los datos del proyecto.
+
+La columna 'Faltantes' es el numero de faltantes de ese proyecto".
+
+La columna 'Encabezado' es la leyenda que incluye fecha, numero de faltantes y en
+ocasiones las iniciales de quien carga el reporte. Se carga en el campo
+'Production Notes'.
+
+La columna 'Texto missing' es un parrafo conformado por todos los faltantes del
+proyecto y es lo que se cargara en el campo 'Material status'.
+
+La columna 'Link' contiene la liga a la pagina del proyecto en Salesforce.
+
+La columna 'Last Material' contiene la fecha del último material confirmado
+a llegar a la planta. Si no deceas agregar una fecha, solo deja la celda
+en blaco para el respectivo proyecto.
+
+La ultima columna "PO Release" carga la fecha del Assy Prod Orders Release Actual,
+y si no deceas que se cargue una nueva fecha, solo deja la celda en blanco. 
+
+Para no poner el Encabezado en "Production Notes", solo deja la celda en blanco
+para ese proyecto.
+
+Dudas, reclamos, aclaraciones y/o sugerencias al correo ir.lopex@gmail.com
+
+Gracias :D
+
+
+**********************************************************************************
+
